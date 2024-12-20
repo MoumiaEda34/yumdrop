@@ -1,4 +1,4 @@
-<img width="957" alt="snap2" src="https://github.com/user-attachments/assets/8b363e7a-d26c-46a2-b686-6225e52cd359" />#Home Page
+#Home Page
 <img width="947" alt="snap1" src="https://github.com/user-attachments/assets/9400c476-0e95-4c9b-94a5-cefe4752a4ae" />
 #Indian Cuisine
 <img width="957" alt="snap2" src="https://github.com/user-attachments/assets/cf7895ae-d077-4a81-b1ed-1d604599e183" />
