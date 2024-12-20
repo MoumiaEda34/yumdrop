@@ -1,0 +1,11 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #3141ba !important;
+}
+.header-main a {
+    color: #fff;
+}
+.nav-item.show.dropdown a {
+    color: #000;
+    font-weight: 600;
+}

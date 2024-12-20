@@ -1,0 +1,61 @@
+
+{
+  "food": [
+   {
+    "id":1,
+    "cuisine":"Indian",
+    "items":[
+      {
+        "id":"In01",
+        "name":"Makki di Roti and Sarson da Saag",
+        "image":"https://www.bigbasket.com/media/uploads/recipe/w-l/1826_1_1.jpg",
+        "location":"Punjab",
+        "description":"Makki di Roti and Sarson da Saag make for the staple food in North India especially in the state of Punjab. This traditional Indian dish may not look very enticing at first, but it has an authentic flavour to it, and it is rich in nutritive value"
+      },{
+        "id":"In01",
+        "name":"Kosha Mangsho",
+        "image":"https://cdn.prod.website-files.com/60d34b8627f6e735cf28df18/6490783a519b21fdec4e5236_Mutton%20Kosha%20Hero%204.3.webp",
+        "location":"West Bengal",
+        "description":"Kosha Mangsho is a traditional dish prepared of Mutton (Goat meat) in every Bengali house. This dish of mutton with some thick curry is high on spices and richness."
+      },{
+        "id":"In01",
+        "name":"Litti Chokha",
+        "image":"https://img-global.cpcdn.com/recipes/38bb1f4b32eabc41/680x482cq70/litti-chokha-recipe-main-photo.jpg",
+        "location":"Bihar",
+        "description":"It consists of wheat and sattu with spices, kneaded into round spicy balls, dipped in ghee. The texture of Litti along with the crunchy crust makes it a foodie’s delight."
+      },{
+        "id":"In01",
+        "name":"Dhokla",
+        "image":"https://images.herzindagi.info/image/2022/Dec/easy-dhokla-recipe.jpg",
+        "location":"Gujrat",
+        "description":"This traditional food item is prepared out of gram flour and chana dal. Plus it is a reasonably easy recipe which can be prepared quickly within half an hour."
+      }
+    ]
+   },
+   {
+    "id":2,
+    "cuisine":"Italian",
+    "items":[
+      {
+        "id":"It01",
+        "name":"Lasagna",
+        "image":"https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg",
+        "location":"Emilia-Romagna",
+        "description":"Lasagna, also known as lasagne, is a type of pasta, possibly one of the oldest types, made in very wide, flat sheets. "
+      },{
+        "id":"It02",
+        "name":"Pasta",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWtFVGsI7ix4LV4xFcUcAri4oNyI7e9oieJA&s",
+        "location":"Italy",
+        "description":"Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking."
+      },{
+        "id":"It03",
+        "name":"Pizza",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg",
+        "location":"Naples, Italy",
+        "description":"Pizza is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato, cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven."
+      }
+    ]
+   }
+  ]
+}

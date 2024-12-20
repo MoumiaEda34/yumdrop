@@ -1,0 +1,173 @@
+.food-details {
+    text-align: center;
+  }
+ .food-details ul {
+    background: none;
+    list-style: none;
+    padding: unset;
+    width: 100%;
+}
+span.highlight {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+  .food-details ul li {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 10px;
+    background: none;
+    width: 21%;
+    border: 2px dotted #fff;
+    font-weight: 600;
+}
+.food-details h1 {
+  color: maroon;
+  font-size: 30px;
+  margin: 0;
+  font-family: fantasy;
+}
+span.highlight p {
+  color: maroon;
+  font-family: fantasy;
+  padding-top: 10px;
+}
+.food-details ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.cuisine-details {
+  text-align: center;
+  padding: 16px;
+}
+.cuisine-details ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+.cuisine-details ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: cursive;
+  color: black;
+  font-weight: 600;
+}
+.cuisine-details ul li {
+  font-size: 10px;
+  text-align: center;
+  display: inline-grid;
+  margin-left: 0.5%;
+  border: 1.5px solid green;
+  border-bottom: none;
+}
+.cuisine-details ul li img {
+  height: 216px;
+}
+.cuisine-details ul li a:hover {
+  text-decoration: underline;
+  color: #d36719;
+}
+.item-details {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  filter: blur(0.4px);
+  -webkit-filter: blur(0.4px);
+}
+.item-details::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.item-details img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.item-details h1 {
+  text-align: center;
+  font-size: 22px;
+  padding: 6px 6px;
+  font-family: cursive;
+}
+.item-details {
+  text-align: center;
+  width: 100%;
+  padding-top: 0em;
+  margin: 2em 0em 2em 0em;
+}
+.item-details h1 {
+  color: #000;
+}
+.cuisine-details h1 {
+  font-family: cursive;
+  font-size: 27px;
+}
+
+.item-details img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 1.5px solid #000000b5;
+}
+.item-details p {
+  font-size: 16px;
+  font-family: cursive;
+  color:#f5ede3;
+  line-height: 1.5;
+  text-shadow: 2px 0px 2px #ff0000;
+}
+.cuisine-details strong {
+  font-size: 14px;
+  font-family: cursive;
+}
+.cuisine-details p {
+  font-size: 12px;
+  padding: 0;
+  margin: 4px;
+  font-family: cursive;
+}
+.cuisine-details button {
+  background: darkgray;
+  border: 2px solid darkgray;
+}
+.food-details {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the background covers the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Allows positioning of the overlay */
+}
+.cuisine-details h2 {
+  font-size: 16px;
+  font-family: system-ui;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(0 0 0 / 28%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white; /* Text color */
+}
